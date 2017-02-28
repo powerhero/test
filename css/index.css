@@ -1,0 +1,171 @@
+html {
+  font-size: 20px; }
+
+a {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+header {
+  width: 16rem;
+  height: 2.05rem;
+  background: #d70302;
+  border-bottom: .2rem solid #d40309;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header h1 {
+    text-indent: -999999em;
+    margin-left: .8rem; }
+    header h1 .logo {
+      width: 5.3rem;
+      height: 1.55rem;
+      display: block;
+      background: url(../img/logo.png) no-repeat;
+      background-size: 5.3rem 1.55rem; }
+  header .old {
+    margin-right: 1.625rem;
+    font-size: .75rem;
+    color: #fff; }
+
+section {
+  width: 16rem; }
+  section nav {
+    width: 100%; }
+    section nav ul {
+      width: 100%;
+      box-sizing: border-box;
+      height: 1.65rem;
+      background: #f6f6f6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 .325rem;
+      border-top: .1rem solid #bbb1ba; }
+      section nav ul li {
+        width: 3rem;
+        height: 1.2rem;
+        text-align: center;
+        line-height: 1.2rem; }
+        section nav ul li.active {
+          border: .05rem solid #c20c0b; }
+          section nav ul li.active a {
+            color: #a1493d; }
+        section nav ul li a {
+          color: #2d2d2d; }
+  section .banner {
+    width: 16rem;
+    height: 8rem;
+    display: flex;
+    position: relative;
+    border-bottom: .35rem solid #969696; }
+    section .banner .banner-pic li {
+      width: 16rem;
+      height: 100%; }
+      section .banner .banner-pic li .pic {
+        width: 16rem;
+        height: 100%;
+        display: block;
+        background: url(../img/banner.png) no-repeat;
+        background-size: 16rem 8rem; }
+    section .banner .swiper-pagination-bullets .swiper-pagination-bullet {
+      width: .35rem;
+      height: .35rem;
+      margin: 0 .1rem;
+      background: #fff;
+      border-radius: 0; }
+    section .banner .swiper-pagination-bullets .swiper-pagination-bullet-active {
+      background: #399; }
+    section .banner .swiper-pagination-bullets, section .banner .swiper-pagination-custom, section .banner .swiper-pagination-fraction {
+      width: 2rem;
+      left: 13.6rem;
+      bottom: 0; }
+  section .list li, section .list-2 li {
+    width: 16rem;
+    border-bottom: .05rem solid #ececec;
+    padding-top: .625rem; }
+    section .list li .list-tit, section .list-2 li .list-tit {
+      font-size: .75rem;
+      color: #2e2e2e;
+      line-height: 1.4rem;
+      display: block;
+      margin-left: .55rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      section .list li .list-tit.red, section .list-2 li .list-tit.red {
+        color: #89181a; }
+    section .list li .user-information, section .list-2 li .user-information {
+      height: 1.725rem;
+      font-size: .65rem;
+      color: #8c8c8c;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      section .list li .user-information .name, section .list-2 li .user-information .name {
+        margin: 0 .55rem 0 .725rem; }
+      section .list li .user-information .time, section .list-2 li .user-information .time {
+        margin-left: .8rem; }
+      section .list li .user-information .right, section .list-2 li .user-information .right {
+        display: flex;
+        align-items: flex-start;
+        margin-right: 1rem; }
+        section .list li .user-information .right .comment, section .list-2 li .user-information .right .comment {
+          width: .825rem;
+          height: .875rem;
+          display: inline-block;
+          margin-left: .3rem;
+          background: url(../img/list-logo.png) no-repeat;
+          background-size: .825rem .875rem; }
+  section .thumbnail {
+    width: 16rem;
+    height: 9.625rem;
+    box-sizing: border-box;
+    padding: 1.5rem 1.65rem 1.1rem .875rem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: .65rem;
+    color: #474747; }
+    section .thumbnail div {
+      text-align: center; }
+      section .thumbnail div a {
+        display: block; }
+        section .thumbnail div a img {
+          width: 6rem;
+          height: 4.5rem; }
+      section .thumbnail div p {
+        line-height: 1rem;
+        margin-top: .55rem; }
+  section .next {
+    width: 16rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    sont-size: .75rem;
+    color: #2f2f2f;
+    border-bottom: .05rem solid #d8d8d8; }
+
+footer {
+  width: 16rem;
+  height: 4.475rem;
+  background: #eee;
+  box-sizing: border-box;
+  padding-top: .825rem; }
+  footer ul {
+    display: flex;
+    justify-content: center; }
+    footer ul li {
+      font-size: .75rem;
+      color: #454545; }
+      footer ul li.center {
+        padding: 0 .35rem; }
+      footer ul li.plr26 {
+        padding: 0 .65rem; }
+      footer ul li a {
+        color: #454545; }
+  footer p {
+    font-size: .5rem;
+    text-align: center;
+    margin-top: .875rem;
+    color: #424242; }
+    footer p span {
+      margin: 0 .325rem; }
